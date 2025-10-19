@@ -20,10 +20,16 @@ The core challenge involved managing concurrent connections via WebSockets and m
 
 ## ⚙️ How to run
 
-1. Clone the repository.
-2. Set up Python Enviroment (this can be done within a virtual environment)
-3. Start backend server
+1. Clone the repository. <br>
+``` git clone https://github.com/MelaniaChiru/Realtime-Chat-App.git ```
+2. Set up Python Enviroment (this can be done within a virtual environment): <br>
+``` pip install websockets ```
+3. Start backend server <br>
+``` python chat_server.py ```
 4. Navigate to `index.html` and open it in your browser.
+
+>[!IMPORTANT]
+> When the page first loads, it prompts users to input a username; this username is then saved in Localhost, therefore to simulate 2 users chatting, you have to open the app in 2 different browsers.
 
 ## 💭 Future Improvements
 * Currently, data is only perststent within the server process; If the server stops, all chat history is lost. A good feature to add would be to ensure that data is never lost when the server is stopped or restarted.
