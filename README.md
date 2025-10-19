@@ -1,4 +1,4 @@
-# Realtime Chat App
+# 💬 Realtime Chat App
 
 This project implements a real-time, channel-based messaging service using modern asynchronous architecture. It allows multiple users to connect to the same server, switch between segregated chat rooms (channels), and ensures that all chat history is permanently saved across server restarts. <br>
 
