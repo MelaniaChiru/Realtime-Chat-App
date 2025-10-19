@@ -16,7 +16,7 @@ The core challenge involved managing concurrent connections via WebSockets and m
 * Vanilla JavaScript
 
 ## 🎞️ Preview
-``` Comming Soon ```
+[Video Preview](https://github.com/user-attachments/assets/e0913dc7-6fec-46f7-9fcc-c9ca2b05941b)
 
 ## ⚙️ How to run
 
@@ -33,3 +33,4 @@ The core challenge involved managing concurrent connections via WebSockets and m
 
 ## 💭 Future Improvements
 * Currently, data is only perststent within the server process; If the server stops, all chat history is lost. A good feature to add would be to ensure that data is never lost when the server is stopped or restarted.
+* Right now, if a user creates a new channel, other users do not automatically detect the creation of this new channel. They have to create a 'new' channel with the same name to be able to enter that channel and see the message history and interact with it.
