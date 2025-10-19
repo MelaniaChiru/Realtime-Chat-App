@@ -1,0 +1,31 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> 💬 Realtime Chat app</title>
+  <link rel="stylesheet" href="chat.css" />
+</head>
+<body>
+
+	<div class="content_wrapper">
+		<div class="channel_selection">
+			<label for="channel_selection">Your channels:</label>
+			<select name="channel_selection" id="channel_selection">
+			</select>
+		</div>
+	
+		<div class="new_channel_section">
+			<input class="channel_creation" type="text" id="new_channel_input" placeholder="Enter channel name">
+			<button type="button">create channel</button>
+		</div>
+	
+		<div class="chat-container">
+			<div class="messages" id="messages"></div>
+			<form class="send_message_container">
+				<input type="text" id="msg">
+				<button type="submit">send</button>
+			</form>
+		</div>
+	</div>
+  	<script src = chat.js></script>
+</body>
+</html>
